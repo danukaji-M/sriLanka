@@ -1,0 +1,113 @@
+img {
+    max-width: 95vw;
+    max-height: 80vh;
+    width: auto;
+    height: auto;
+    display: block; /* Center-align the images */
+    margin: 0 auto;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.background {
+    background-image: url("resources/bcg.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.text1 {
+    font-family: cursive;
+    font-size: 30px;
+    margin-bottom: -5px;
+}
+
+
+
+#modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-container {
+    margin: 5% auto;
+    width: 70%;
+    height: 80%;
+    display: flex;
+}
+
+.modal-container img {
+    max-height: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    animation-name: modalopen;
+    animation-duration: 1s;
+}
+
+.container {
+    max-width: 950px;
+    margin: auto;
+    border: white solid 3px;
+    background-color: white;
+}
+
+.imgs img {
+    width: 100%;
+    height: 200px;
+    box-shadow: 5px 5px 2px rgba(40, 62, 80, 0.2);
+}
+
+.imgs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.photo-overlay {
+    opacity: 0;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.45);
+    transition: opacity 0.3s linear;
+}   
+
+.photo-overlay:hover {
+    opacity: 1;
+}
+
+.img-container {
+    position: relative;
+}
+
+@keyframes modalopen {
+    from {
+    opacity: 0;
+}
+    to {
+    opacity: 1;
+    }
+}
