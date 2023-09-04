@@ -124,9 +124,9 @@
 
                 <p>
                     Food lovers will delight in Sri Lanka's vibrant cuisine, where spices reign supreme. From fiery curries to fragrant rice dishes, the country's culinary offerings are a fusion of flavors influenced by its history and diverse communities. Don't miss the chance to savor a traditional Sri Lankan meal, served on a banana leaf for an authentic experience.
-
+                    <br>
                     Sri Lanka's beauty extends beyond its landscapes and history to its warm and welcoming people. The island's residents are known for their hospitality, making visitors feel like treasured guests. Engaging with locals and immersing oneself in their customs and traditions is an essential part of the Sri Lankan experience.
-
+                    <br>
                     In conclusion, Sri Lanka's beauty is a harmonious blend of natural wonders, cultural treasures, and the kindness of its people. This small yet diverse island nation offers an incredible range of experiences that leave an indelible mark on the soul of every traveler. Whether you seek adventure, relaxation, or cultural exploration, Sri Lanka is a land of enchantment that beckons you to discover its myriad charms. It's a place where beauty truly knows no bounds.
                 </p>
             </div>
@@ -206,7 +206,7 @@
                         <br>
                         <span class="text-light text-capitalize ">we are the sri lanka best web developers</span>
                         <br>
-                        <span class=" text-warning text-uppercase " >aventura group of company&trade;</span>
+                        <span class=" text-warning text-uppercase ">aventura group of company&trade;</span>
                     </div>
                 </div>
             </div>
