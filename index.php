@@ -36,7 +36,7 @@
         <div class="row">
             <div class="col-12 text-center ">
                 <span class=" text-capitalize ">
-                    <p class=" text1">sri lanka <span class="text-warning text-decoration-underline ">this is your travel place</span></p>
+                    <p class=" text1">sri lanka <span class=" text1 ">this is your travel place</span></p>
                 </span>
             </div>
         </div>
@@ -56,14 +56,14 @@
                         <img src="resources/2.jpg" class="d-block w-100 " alt="...">
                         <div class=" carousel-caption d-sm-none d-lg-block">
                             <h1 class=" text-uppercase text-success-emphasis font-monospace ">sigiriya</h1>
-                            <p class=" font-monospace text-capitalize text-decoration-underline h3">sigiriya most important place in sri lanka </p>
+                            <p class=" font-monospace text-capitalize text-decoration-underline h4 ">sigiriya most important place in sri lanka </p>
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="2400">
                         <img src="resources/1.jpg" class="d-block w-100" alt="...">
                         <div class=" carousel-caption d-sm-none d-lg-block">
                             <h1 class=" text-uppercase text-success-emphasis font-monospace ">nine arch bridge</h1>
-                            <p class=" font-monospace text-capitalize text-decoration-underline h3">oldest bridge in sri lanka </p>
+                            <p class=" font-monospace text-capitalize text-decoration-underline h4">oldest bridge in sri lanka </p>
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="2400">
@@ -130,7 +130,7 @@
                     In conclusion, Sri Lanka's beauty is a harmonious blend of natural wonders, cultural treasures, and the kindness of its people. This small yet diverse island nation offers an incredible range of experiences that leave an indelible mark on the soul of every traveler. Whether you seek adventure, relaxation, or cultural exploration, Sri Lanka is a land of enchantment that beckons you to discover its myriad charms. It's a place where beauty truly knows no bounds.
                 </p>
             </div>
-            <div class="col-6 d-sm-none d-lg-block">
+            <div class="col-6 d-none d-lg-block">
                 <div id="modal" class="modal">
                     <div class="modal-container">
                         <img id="current" src="" alt="">
